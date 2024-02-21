@@ -1,4 +1,3 @@
-import play
 import random, turtle
 
 foundWinner = False
@@ -83,4 +82,3 @@ while not all(lap_completed[player] for player in players):
                     foundWinner = True
 
 turtle.done()
-play.start_program()
